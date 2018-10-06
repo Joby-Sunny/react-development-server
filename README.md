@@ -5,14 +5,13 @@
 
 #Package.json file[Create & Why we use these Modules]:
 
-1. Create Your Folder -> 'photovision'
-2. Run npm init -y to create the package.json file
-3. Now we intall the basic 'dependencies' we need.
+1. Run npm init -y to create the package.json file from inside your root folder.
+2. Now we intall the basic 'dependencies' we need.
     a. npm install --save react react-dom
-4. Now we install the 'devDependencies' we need
+3. Now we install the 'devDependencies' we need
     a. npm i --save-dev babel-core babel-loader@7 babel-preset-env babel-preset-react 
     b. npm i --save-dev webpack webpack-cli webpack-dev-server html-webpack-plugin
-5. create the "start" & "build" commands to setup the development server at 'npm start' command and build the final code at 'npm run build' command.
+4. create the "start" & "build" commands to setup the development server at 'npm start' command and build the final code at 'npm run build' command.
 
 #Note: 
 1. WEBPACK is a packaging app that maps the components of your application and builds a single file for all your components complete with all dependencies. 
